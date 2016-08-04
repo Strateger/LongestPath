@@ -1,0 +1,64 @@
+
+
+.gridTextInput{
+    width : 20px;
+}
+
+.gridMakerHeader{
+    text-align:center;
+    font-size: 20px;
+}
+
+.gridMaker{
+    background-color:#399939;
+    padding : 10px;
+    height:80px;
+}
+
+.gridMakerBody{
+    display: table;
+    margin: 0 auto;
+}
+
+#gridButtonsDiv{
+    left:17%;
+    position:relative;
+    margin-top:10px;
+}
+
+.gridInput{
+   float: left;
+   margin-right : 20px;
+}
+
+.outerGrid{
+    background-color: #ccc;
+}
+
+
+.TheGrid{
+   min-height: 700px;
+   background-color : #ccc;
+   display:table;
+   margin: 0 auto;
+   padding-top:20px;
+   padding-bottom:20px;
+}
+
+.gridCell{
+  text-align:center;
+  margin-right: -4px;
+  margin-top : -4px;
+  border-style: double;
+  border-color: #888;
+  background-color: #ccc;
+}
+
+
+.longestClass{
+   background-color : #4578bc;
+}
+
+#maxNumber{
+  width:25px;
+}

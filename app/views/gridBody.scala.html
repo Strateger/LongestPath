@@ -1,0 +1,22 @@
+
+<div class="gridMaker" >
+    <div class="gridMakerHeader"> Grid Maker! </div>
+    <div class="gridMakerBody">
+        <div class="gridInput">  Colomns: <input type="text" class="gridTextInput" id="gridCols" value="24"></div>
+        <div class="gridInput">  Rows: <input type="text" class="gridTextInput" id="gridRows" value="13"></div>
+
+        <div class="gridInput">  Max Number Size: <input type="text" class="gridTextInput" id="maxNumber"  value="16" onblur="maxNumberCheck(this); "></div>
+        <div style="clear:both"></div>
+        <div id="gridButtonsDiv">
+            <input class="gridGenerateButton" type=button onclick="createNewGrid()"  value="Create New Grid!">
+            <input class="gridGenerateButton" type=button onclick="findLongestPath()"  value="Find Longest Path!">
+        </div>
+    </div>
+</div>
+
+<div class="outerGrid">
+
+<div id="TheGrid" class="TheGrid">
+
+
+</div>
