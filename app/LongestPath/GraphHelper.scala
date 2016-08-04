@@ -56,8 +56,7 @@ object GraphHelper {
          val classIndexes = aNode.longestPath.reduceLeft((aPath: Vector[Int], acc: Vector[Int]) => acc ++ aPath)
          val longestClass = if (idsOnALongestPath.indexOf(aNode.uniqueId) > (-1)) " longestClass " else " "
 
-         val backGroundColor = "0xcc" + Integer.toHexString((255*(aNode.displayId/maxDisplayId.toDouble)).toInt) + "cc"
-         s"<input type='text' value='${aNode.displayId}' style='background-color : #${backGroundColor};' class='gridCell $longestClass'>"
+         s"<input type='text' value='${aNode.displayId}'  class='gridCell $longestClass'>"
       }
 
 
